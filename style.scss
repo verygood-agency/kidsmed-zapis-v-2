@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+.scroll-off {
+  overflow: hidden;
+  .online-form__overlay {
+    opacity: 1;
+  }
+}
+
+@import "css-parts/visually-hidden";
+@import "css-parts/online-form";
+@import "css-parts/itc-select";
+@import "css-parts/calenfar";
+@import "css-parts/reception-time";
+@import "css-parts/input-list";
+@import "css-parts/form-result";
+
+.hide {
+  display: none !important;
+}
+
+.btn-center {
+  margin: 0 auto;
+  max-width: max-content;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+}
+
+.text-field__label small {
+  color: #e4097f;
+  margin-left: 6px;
+  font-size: 1.1em;
+}
+
+// .input-list .write-inputs[type="date"]:not(:placeholder-shown) {
+//   color: #343d42;
+//   border-color: rgba(52, 53, 140, 0.2);
+// }
+
+
+// .input-list .write-inputs[type="date"]::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+// .input-list .write-inputs[type="date"]::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+// .input-list .write-inputs[type="date"]::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+//   color: transparent;
+// }
+
+
+// input[type=date]::-webkit-datetime-edit { padding: 1em; }
+// input[type=date]::-webkit-datetime-edit-fields-wrapper { background: silver; }
+// input[type=date]::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+// input[type=date]::-webkit-datetime-edit-month-field { color: blue; }
+// input[type=date]::-webkit-datetime-edit-day-field { color: green; }
+// input[type=date]::-webkit-datetime-edit-year-field { color: purple; }
+// input[type=date]::-webkit-inner-spin-button { display: none; }
+// // input[type=date]::-webkit-calendar-picker-indicator { background: orange;}
+
+// input[type=date]:required:invalid::-webkit-datetime-edit {
+//   color: transparent;
+// }
+// input[type=date]:focus::-webkit-datetime-edit {
+//   color: black !important;
+// }
+
+.online-form__content .text-field input {
+  color: #000000;
+  border-color: #34358c;
+}
